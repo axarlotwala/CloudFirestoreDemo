@@ -1,0 +1,257 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeNo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. Theme.MaterialComponents  Theme.AppCompat.DayNight.NoActionBar-->
+        <!--Theme.MaterialComponents.Light.NoActionBar-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="windowActionBar">false</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/activityBackground</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="Activity3TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="blackFont" >
+        <item name="android:textColor">@color/material_black</item>
+    </style>
+    <style name="tvHeader">
+        <item name="android:padding">3dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">13px</item>
+        <item name="android:textColor">#090909</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="tvLiner">
+        <item name="android:padding">3dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">15px</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <style name="fancyButtonGrey" parent="fancyButton">
+        <item name="mfb_defaultColor">@color/material_grey100</item>
+        <item name="mfb_borderColor">@color/material_grey400</item>
+    </style>
+    <style name="fancyButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+
+        <item name="mfb_radius">4dp</item>
+        <item name="mfb_defaultColor">@color/material_grey50</item>
+        <item name="mfb_focusColor">@color/material_grey300</item>
+        <item name="mfb_fontIconSize">20sp</item>
+        <item name="mfb_iconPaddingBottom">10dp</item>
+        <item name="mfb_iconPosition">top</item>
+        <item name="mfb_textSize">15sp</item>
+        <item name="mfb_textColor">@color/material_black</item>
+
+        <item name="mfb_borderColor">@color/material_grey300</item>
+        <item name="mfb_borderWidth">1dp</item>
+    </style>
+
+    <style name="fancyAttnBtnUpload" parent="fancyAttnBtn">
+        <item name="mfb_defaultColor">@color/material_grey500</item>
+        <item name="mfb_borderColor">@color/material_grey700</item>
+        <item name="mfb_textColor">@color/material_white</item>
+    </style>
+    <style name="fancyAttnBtnPrimary" parent="fancyAttnBtn">
+        <item name="mfb_defaultColor">@color/colorPrimary</item>
+        <item name="mfb_borderColor">@color/colorPrimaryDark</item>
+        <item name="mfb_textColor">@color/material_white</item>
+    </style>
+    <style name="fancyAttnBtnAmber" parent="fancyAttnBtn">
+        <item name="mfb_defaultColor">@color/material_amber100</item>
+        <item name="mfb_borderColor">@color/material_amber400</item>
+    </style>
+    <style name="fancyAttnBtnGrey" parent="fancyAttnBtn">
+        <item name="mfb_defaultColor">@color/material_grey100</item>
+        <item name="mfb_borderColor">@color/material_grey400</item>
+    </style>
+
+    <style name="fancyAttnBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+
+        <item name="mfb_radius">1dp</item>
+        <item name="mfb_textSize">8sp</item>
+        <item name="mfb_focusColor">@color/material_grey300</item>
+        <item name="android:padding">2dp</item>
+        <item name="mfb_iconPosition">top</item>
+        <item name="mfb_textColor">@color/material_black</item>
+        <item name="mfb_defaultColor">@color/material_white</item>
+        <item name="mfb_borderColor">@color/material_grey100</item>
+        <item name="mfb_borderWidth">1dp</item>
+
+    </style>
+
+    <style name="dLayoutItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="mfb_radius">4dp</item>
+        <item name="mfb_defaultColor">@color/material_grey50</item>
+        <item name="mfb_focusColor">@color/material_grey300</item>
+        <item name="mfb_borderColor">@color/material_grey300</item>
+        <item name="mfb_borderWidth">1dp</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
+
+    <style name="fancyLayoutGrey" parent="fancyLayout">
+        <item name="mfb_defaultColor">@color/material_grey100</item>
+        <item name="mfb_focusColor">@color/material_grey200</item>
+        <item name="mfb_borderColor">@color/material_grey300</item>
+    </style>
+    <style name="fancyLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+
+        <item name="mfb_radius">4dp</item>
+        <item name="mfb_defaultColor">@color/material_grey50</item>
+        <item name="mfb_focusColor">@color/material_grey500</item>
+        <item name="mfb_borderColor">@color/material_grey500</item>
+        <item name="mfb_borderWidth">1dp</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
+
+    <style name="Ecommerce24TextLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:textColorHint">@color/material_grey700</item>
+    </style>
+    <style name="Ecommerce24Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:textColorHint">@color/material_grey700</item>
+    </style>
+
+    <style name="spinnerInput" >
+        <item name="android:background">@color/material_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="spinnerDropDown" parent="Widget.AppCompat.Spinner.DropDown" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">30dp</item>
+
+    </style>
+
+    <style name="dashInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColorHint">@color/material_grey800</item>
+    </style>
+
+    <style name="dashBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">12dp</item>
+
+        <item name="mfb_radius">2dp</item>
+        <!--<item name="mfb_textSize">8sp</item>-->
+        <item name="mfb_focusColor">@color/material_grey500</item>
+
+        <item name="mfb_iconPosition">top</item>
+        <item name="mfb_textColor">@color/material_grey700</item>
+        <item name="mfb_defaultColor">@color/material_white</item>
+        <item name="mfb_borderColor">@color/material_grey300</item>
+        <item name="mfb_borderWidth">1dp</item>
+    </style>
+
+    <style name="ButtonSave" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/material_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="ButtonDash" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/material_grey800</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="formTitle">
+        <item name="android:textColor">@color/material_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="formGroupTitle">
+        <item name="android:textColor">@color/material_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+    <style name="itemRow">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+</resources>

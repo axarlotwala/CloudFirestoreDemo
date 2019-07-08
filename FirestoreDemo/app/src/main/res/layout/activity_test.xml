@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.TestActivity">
+
+    <in.apparray.mylibrary.classes.SelectSpinner
+        android:id="@+id/ssItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hint_text="Select Item"
+        app:display="blank"
+        tools:ignore="MissingConstraints">
+    </in.apparray.mylibrary.classes.SelectSpinner>
+
+    <in.apparray.mylibrary.classes.SelectSpinner
+        android:id="@+id/ssItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hint_text="Select Item"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="10dp">
+    </in.apparray.mylibrary.classes.SelectSpinner>
+
+    <in.apparray.mylibrary.classes.SelectSpinner
+        android:id="@+id/ssItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hint_text="Select Item"
+        android:layout_marginTop="10dp"
+        app:multi_select="true"
+        tools:ignore="MissingConstraints">
+    </in.apparray.mylibrary.classes.SelectSpinner>
+
+    <in.apparray.mylibrary.classes.SelectSpinner
+        android:id="@+id/ssItem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hint_text="Select Item"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints">
+    </in.apparray.mylibrary.classes.SelectSpinner>
+
+    <in.apparray.mylibrary.classes.MaterialFancyBtn
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        fancy:mfb_borderColor="#FFFFFF"
+        fancy:mfb_borderWidth="1dp"
+        fancy:mfb_defaultColor="#7ab800"
+        fancy:mfb_focusColor="#9bd823"
+        fancy:mfb_icon="@string/fawi_credit_card_alt"
+        fancy:mfb_fontIconSize="15dp"
+        fancy:mfb_iconPosition="right"
+        fancy:mfb_radius="30dp"
+        fancy:mfb_text="SHUFFLE PLAY"
+        fancy:mfb_textColor="#FFFFFF"
+        fancy:mfb_textGravity="center_horizontal">
+    </in.apparray.mylibrary.classes.MaterialFancyBtn>
+
+
+    <Button
+        android:id="@+id/btn_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Progress Dialog"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Basic Message"/>
+
+    <Button
+        android:id="@+id/btn_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="title alert"/>
+
+    <Button
+        android:id="@+id/btn_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="error"/>
+
+    <Button
+        android:id="@+id/btn_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="warning" />
+
+    <Button
+        android:id="@+id/btn_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="success"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="custom image"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

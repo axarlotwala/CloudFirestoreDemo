@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp">
+
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/input_layout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp">
+
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/et_anv_date"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Enter Anniversary Date"
+           android:inputType="date" />
+   </com.google.android.material.textfield.TextInputLayout>
+
+   <Button
+       android:id="@+id/btn_anv_date"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:text="Select Date"
+       android:layout_marginRight="10dp" />
+
+       <TextView
+           android:id="@+id/tv_spouse"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Select Spouse"
+           android:layout_marginLeft="10dp"
+           android:padding="5dp"
+           android:layout_below="@id/input_layout"/>
+
+       <RadioGroup
+           android:id="@+id/group_spose"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/tv_spouse"
+           android:layout_marginTop="10dp"
+           android:padding="10dp"
+           android:orientation="horizontal"
+           android:layout_marginLeft="10dp">
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mr."/>
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ms."
+               android:layout_marginLeft="10dp"/>
+       </RadioGroup>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/input_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/group_spose"
+           android:layout_marginTop="10dp">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/et_spouse_full_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Spouse Full Name With Surname"
+               android:inputType="text"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/spouse_birth"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/input_name"
+           android:layout_marginTop="10dp">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/et_spouse_birth"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Enter Spouse Birthdate"
+               android:inputType="date"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <Button
+           android:id="@+id/btn_spouse_birth"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_below="@id/input_name"
+           android:layout_marginTop="10dp"
+           android:text="Select Birth"/>
+
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/input_child_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/spouse_birth"
+           android:layout_marginTop="10dp">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/et_childname"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Child full name" />
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:layout_below="@id/input_child_name">
+
+           <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/et_child_birth"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="child birthdate"
+               android:inputType="date"/>
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <Button
+           android:id="@+id/btn_child_birth"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Select Child Birth"
+           android:layout_alignParentRight="true"
+           android:layout_below="@id/input_child_name"
+           android:layout_marginTop="10dp"/>
+   </RelativeLayout>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:text="Ok"
+       android:layout_marginRight="20dp" />
+
+</RelativeLayout>

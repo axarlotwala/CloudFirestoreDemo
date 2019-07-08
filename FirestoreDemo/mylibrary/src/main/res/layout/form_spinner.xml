@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<in.apparray.mylibrary.classes.SelectSpinner
+        android:id="@+id/selectSpinner"
+        android:background="@color/material_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        app:hint_text="*"
+        android:layout_margin="5dp"
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"/>

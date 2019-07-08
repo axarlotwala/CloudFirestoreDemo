@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCell"
+    android:layout_width="@dimen/excelpanel_cell_length"
+    android:layout_height="@dimen/excelpanel_cell_height">
+
+    <LinearLayout
+        android:id="@+id/pms_cell_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/excelpanel_normal_cell_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:gravity="center"
+            android:textColor="#FF333333"
+            android:textSize="10sp"
+            tools:text="101" />
+
+        <TextView
+            android:id="@+id/tvSubText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="#FF999999"
+            android:textSize="9sp"
+            android:visibility="gone"
+            tools:text="" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/right_line"
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/bg_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_line" />
+</RelativeLayout>

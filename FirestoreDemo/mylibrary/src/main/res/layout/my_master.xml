@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_margin="4dp">
+
+    <co.owmfg.owmfg.Classes.MaterialFancyLayout
+            style="@style/fancyButtonGrey"
+            android:id="@+id/layoutTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="4dp"
+    >
+
+        <in.apparray.mylibrary.classes.SelectSpinner
+                android:id="@+id/selectSpinner"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hint_text="Loading..."/>
+
+        <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+        </LinearLayout>
+
+        <co.owmfg.owmfg.Classes.MaterialFancyBtn
+                style="@style/fancyAttnBtn"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                app:mfb_textSize="15sp"
+                app:mfb_text="Submit"
+                app:mfb_icon="@string/fawi_floppy_o"
+                app:mfb_iconPosition="left"
+                app:mfb_iconPaddingRight="8dp"
+                android:id="@+id/btnSave"
+                android:visibility="gone"/>
+
+    </co.owmfg.owmfg.Classes.MaterialFancyLayout>
+
+
+</LinearLayout>

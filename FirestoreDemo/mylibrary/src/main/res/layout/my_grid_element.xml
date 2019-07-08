@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+
+    <in.apparray.mylibrary.classes.MaterialFancyLayout
+            style="@style/fancyButtonGrey"
+            android:id="@+id/layoutTitle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:mfb_defaultColor="@color/material_white"
+            android:padding="4dp"
+    >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTitle"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:id="@+id/ivAdd"/>
+
+            <ImageButton
+                    android:id="@+id/ivShare"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_menu_share"
+                    android:tint="@color/colorPrimary" />
+
+        </LinearLayout>
+
+        <cn.zhouchaoyuan.excelpanel.ExcelPanel
+                android:id="@+id/excelPanel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:left_cell_width="@dimen/excelpanel_cell_height"
+                app:normal_cell_width="@dimen/excelpanel_cell_length"
+                app:top_cell_height="@dimen/excelpanel_cell_height">
+
+        </cn.zhouchaoyuan.excelpanel.ExcelPanel>
+
+    </in.apparray.mylibrary.classes.MaterialFancyLayout>
+
+
+</LinearLayout>

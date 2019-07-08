@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/alertSearchEditText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_to_search"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/selectspinner_list_item"
+            android:textColorHint="@color/selectspinner_list_item"
+            android:windowSoftInputMode="stateVisible">
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imgClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/alertSearchEditText"
+            android:layout_alignRight="@id/alertSearchEditText"
+            android:layout_alignTop="@id/alertSearchEditText"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ic_clear"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/alertSearchEditText"
+            android:layout_alignRight="@id/imgClear"
+            android:layout_alignTop="@id/alertSearchEditText"
+            android:layout_marginRight="20dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ListView
+            android:id="@+id/alertSearchListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:cacheColorHint="@null"
+            android:divider="#e5e5e5"
+            android:dividerHeight="1dp"
+            android:fadeScrollbars="true"
+            android:fastScrollEnabled="true"
+            android:textFilterEnabled="true" />
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/holo_red_light" />
+    </RelativeLayout>
+</LinearLayout>

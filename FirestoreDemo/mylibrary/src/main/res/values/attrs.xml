@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="multi_spinner">
+        <attr name="clearFlag" format="boolean"/>
+        <attr name="display" format="string"/>
+        <attr name="hint_text" format="string"/>
+        <attr name="multi_select" format="boolean"/>
+        <attr name="fs_collection" format="string"/>
+        <attr name="fs_searchkey" format="string"/>
+        <attr name="fs_displaykey" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="MaterialFancyBtnAttrs">
+        <attr name="android:enabled" />
+        <attr name="android:text" />
+        <attr name="android:textSize" />
+        <attr name="android:textAllCaps" />
+        <attr name="mfb_defaultColor" format="color" />
+        <attr name="mfb_text" format="string" />
+        <attr name="mfb_textColor" format="color" />
+        <attr name="mfb_iconColor" format="color" />
+        <attr name="mfb_textFont" format="string" />
+        <attr name="mfb_iconFont" format="string" />
+        <attr name="mfb_textSize" format="dimension" />
+        <attr name="largeText" format="string" />
+        <attr name="large_textSize" format="dimension" />
+        <attr name="mfb_iconResource" format="integer" />
+        <attr name="mfb_icon" format="string" />
+        <attr name="mfb_fontIconResource" format="string" />
+        <attr name="mfb_fontIconSize" format="dimension" />
+        <attr name="mfb_iconPosition" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <attr name="mfb_textPosition" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <attr name="mfb_textGravity" format="enum">
+            <enum name="top" value="0x30" />
+            <enum name="bottom" value="0x50" />
+            <enum name="left" value="0x03" />
+            <enum name="right" value="0x05" />
+            <enum name="center_vertical" value="0x10" />
+            <enum name="fill_vertical" value="0x70" />
+            <enum name="center_horizontal" value="0x01" />
+            <enum name="fill_horizontal" value="0x07" />
+            <enum name="center" value="0x11" />
+            <enum name="fill" value="0x77" />
+            <enum name="clip_vertical" value="0x80" />
+            <enum name="clip_horizontal" value="0x08" />
+            <enum name="start" value="0x00800003" />
+            <enum name="end" value="0x00800005" />
+        </attr>
+        <attr name="mfb_iconPaddingLeft" format="dimension" />
+        <attr name="mfb_iconPaddingRight" format="dimension" />
+        <attr name="mfb_iconPaddingTop" format="dimension" />
+        <attr name="mfb_iconPaddingBottom" format="dimension" />
+        <attr name="mfb_borderColor" format="color" />
+        <attr name="mfb_borderWidth" format="dimension" />
+        <attr name="mfb_focusColor" format="color" />
+        <attr name="mfb_disabledColor" format="color" />
+        <attr name="mfb_disabledTextColor" format="color" />
+        <attr name="mfb_disabledBorderColor" format="color" />
+        <attr name="mfb_radius" format="dimension" />
+        <attr name="mfb_radiusTopLeft" format="dimension" />
+        <attr name="mfb_radiusTopRight" format="dimension" />
+        <attr name="mfb_radiusBottomLeft" format="dimension" />
+        <attr name="mfb_radiusBottomRight" format="dimension" />
+        <attr name="mfb_textAllCaps" format="boolean" />
+        <attr name="mfb_ghost" format="boolean" />
+    </declare-styleable>
+</resources>

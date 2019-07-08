@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="formTitle">
+        <item name="android:textColor">@color/material_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="formGroupTitle" parent="formTitle">
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+    <style name="editTextInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:textColorHint">@color/material_grey700</item>
+    </style>
+
+    <style name="fancyButtonGrey" parent="fancyButton">
+        <item name="mfb_defaultColor">@color/material_grey100</item>
+        <item name="mfb_borderColor">@color/material_grey400</item>
+    </style>
+    <style name="fancyButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+
+        <item name="mfb_radius">4dp</item>
+        <item name="mfb_defaultColor">@color/material_grey50</item>
+        <item name="mfb_focusColor">@color/material_grey300</item>
+        <item name="mfb_fontIconSize">20sp</item>
+        <item name="mfb_iconPaddingBottom">10dp</item>
+        <item name="mfb_iconPosition">top</item>
+        <item name="mfb_textSize">15sp</item>
+        <item name="mfb_textColor">@color/material_black</item>
+
+        <item name="mfb_borderColor">@color/material_grey300</item>
+        <item name="mfb_borderWidth">1dp</item>
+    </style>
+
+    <style name="fancyAttnBtn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+
+        <item name="mfb_radius">3dp</item>
+        <item name="mfb_textSize">8sp</item>
+        <item name="mfb_focusColor">@color/material_grey500</item>
+        <item name="android:padding">4dp</item>
+        <item name="mfb_iconPosition">top</item>
+        <item name="mfb_textColor">@color/material_black</item>
+        <item name="mfb_defaultColor">@color/material_grey300</item>
+        <item name="mfb_borderColor">@color/material_grey500</item>
+        <item name="mfb_borderWidth">1dp</item>
+
+    </style>
+
+</resources>

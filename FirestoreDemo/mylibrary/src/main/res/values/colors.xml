@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/material_blue700</color>
+    <color name="colorPrimaryDark">@color/material_blue900</color>
+    <color name="colorAccent">@color/material_blue500</color>
+    <color name="activityBackground">#f1f5f8</color>
+    <color name="excelpanel_normal_cell_bg">#FEFFFE</color>
+    <color name="selectspinner_list_item">#5e6060</color>
+</resources>
